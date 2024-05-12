@@ -41,3 +41,25 @@ Welcome to my TypeScript Refresh Course repository! This repository contains exa
 
 - Undefined
     >: undefined
+
+### 3. Functions
+- Function Return type
+    > (): string => {}
+
+- Function required arguments
+    > ( arg: string, arg2: string ): string => {}
+
+- Function optional arguments
+    > ( arg: string, arg2?: string ): string => {}
+
+- Function default arguments
+    > ( arg: string, arg2?: string, isArg: boolean = false ): string => {}
+
+- Function rest arguments
+    > ( arg: string, ...restArgs: string[] ): string => {}
+
+- Function without arguments
+    > (): string => {}
+
+- Function without return value
+    > () => void
